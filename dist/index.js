@@ -244,11 +244,10 @@ var Qiniu = /*#__PURE__*/function () {
             while (1) {
               switch (_context2.prev = _context2.next) {
                 case 0:
-                  console.log('configComplete', _this2.configComplete);
-                  _context2.next = 3;
+                  _context2.next = 2;
                   return _this2._getToken();
 
-                case 3:
+                case 2:
                   result = _context2.sent;
 
                   if (result) {
@@ -290,7 +289,7 @@ var Qiniu = /*#__PURE__*/function () {
                     });
                   }
 
-                case 5:
+                case 4:
                 case "end":
                   return _context2.stop();
               }

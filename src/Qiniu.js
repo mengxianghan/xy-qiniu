@@ -71,7 +71,6 @@ class Qiniu {
     upload(key, file, config = {}) {
         return new Promise((resolve, reject) => {
             this._init().then(async () => {
-                console.log('configComplete', this.configComplete);
                 const result = await this._getToken();
                 if (result) {
                     const opts = mergeDeep(this.opts, { config });
